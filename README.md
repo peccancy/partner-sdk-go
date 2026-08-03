@@ -21,7 +21,7 @@ import partner "github.com/peccancy/partner-sdk-go"
 
 ## Get credentials
 
-1. Register as a partner on the platform and open your partner in the dashboard.
+1. Register as a partner at **https://disputes.online/profile?tab=partners** and open your partner.
 2. Copy your **partnerID** (UUID) and **secret**.
 3. Set a **callback_url** on your partner if you want result/payment webhooks.
 
@@ -108,6 +108,11 @@ Non-2xx responses return a `*partner.APIError` with `.StatusCode` and `.Body` (u
 
 - [`examples/connect-your-game`](./examples/connect-your-game)
 - [`examples/webhook-receiver`](./examples/webhook-receiver)
+
+## Links
+
+- **Register / get credentials:** https://disputes.online/profile?tab=partners
+- **Other SDKs:** [Node](https://github.com/peccancy/partner-sdk-node) · [PHP](https://github.com/peccancy/partner-sdk-php) · [Python](https://github.com/peccancy/partner-sdk-python) · [Go](https://github.com/peccancy/partner-sdk-go)
 
 ## License
 
