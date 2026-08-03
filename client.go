@@ -59,7 +59,7 @@ func New(baseURL, partnerID, secret string, opts ...Option) (*Client, error) {
 	return c, nil
 }
 
-func nowSec() int64        { return time.Now().Unix() }
+func nowSec() int64          { return time.Now().Unix() }
 func money(n float64) string { return fmt.Sprintf("%.2f", n) }
 
 // ---- Disputes ----
