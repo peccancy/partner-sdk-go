@@ -1,5 +1,7 @@
 # partner-sdk-go
 
+[![CI](https://github.com/peccancy/partner-sdk-go/actions/workflows/ci.yml/badge.svg)](https://github.com/peccancy/partner-sdk-go/actions/workflows/ci.yml)
+
 Official Go SDK for the **Peccancy** disputes/betting platform.
 
 Connect your game or app once and let your users bet on outcomes: create disputes, control
