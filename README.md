@@ -113,6 +113,14 @@ Non-2xx responses return a `*partner.APIError` with `.StatusCode` and `.Body` (u
 - [`examples/connect-your-game`](./examples/connect-your-game)
 - [`examples/webhook-receiver`](./examples/webhook-receiver)
 
+## Public data and AI agents
+
+This SDK covers the signed Partner API. Reading disputes and odds needs neither the SDK nor a key:
+
+- **Public read API** — list, search and read disputes: [OpenAPI description](https://disputes.online/openapi.json)
+- **MCP server for AI agents** — `https://disputes.online/mcp` (read-only, no authentication)
+- **Everything on one page** — https://disputes.online/developers
+
 ## Links
 
 - **Register / get credentials:** https://disputes.online/profile?tab=partners
